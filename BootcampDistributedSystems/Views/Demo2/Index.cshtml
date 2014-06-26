@@ -1,0 +1,50 @@
+﻿@model BootcampDistributedSystems.Models.OrderViewModel
+@{
+    ViewBag.Title = "Shop shop";
+}
+
+<div >
+    <h1>Place an order</h1>
+    <form action="@Url.Action("PlaceOrder","Demo2")" method="POST">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                @{
+                    var i = 0;
+                    foreach (var product in Model.Products)
+                    {
+                        <tr>
+                            <td>@product.Description</td>
+                            <td>@product.Price</td>
+                            <td>
+                                <input type="text" name="OrderLines[@i].Quantity" class="form-control" placeholder="Quantity">
+                                <input type="hidden" name="OrderLines[@i].Product.Code" value="@product.Code">
+                                <input type="hidden" name="OrderLines[@i].Product.Price" value="@product.Price">
+                                <input type="hidden" name="OrderLines[@i].Product.Description" value="@product.Description">
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                }
+            </tbody>
+        </table>
+        <div class="form-group">
+            <label for="customerName">Name</label>
+            <input type="text" class="form-control" id="customerName" placeholder="Enter your name" name="CustomerName">
+        </div>        
+        <div class="form-group">
+            <label for="customerEmail">Email address</label>
+            <input type="email" class="form-control" id="customerEmail" placeholder="Enter email" name="CustomerEmail">
+        </div>
+        <p>
+            <button type="submit" class="btn btn-primary btn-lg">Order now!</button>
+        </p>
+    </form>
+</div>

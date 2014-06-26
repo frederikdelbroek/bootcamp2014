@@ -1,0 +1,5 @@
+C:\Users\Frederik\Projects\BootcampDistributedSystems\StockService\bin\Debug\StockService.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\StockService\bin\Debug\StockService.pdb
+C:\Users\Frederik\Projects\BootcampDistributedSystems\StockService\obj\Debug\StockService.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Projects\BootcampDistributedSystems\StockService\obj\Debug\StockService.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\StockService\obj\Debug\StockService.pdb

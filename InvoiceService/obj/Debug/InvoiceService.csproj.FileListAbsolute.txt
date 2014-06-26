@@ -1,0 +1,5 @@
+C:\Users\Frederik\Projects\BootcampDistributedSystems\InvoiceService\bin\Debug\InvoiceService.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\InvoiceService\bin\Debug\InvoiceService.pdb
+C:\Users\Frederik\Projects\BootcampDistributedSystems\InvoiceService\obj\Debug\InvoiceService.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Projects\BootcampDistributedSystems\InvoiceService\obj\Debug\InvoiceService.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\InvoiceService\obj\Debug\InvoiceService.pdb

@@ -1,0 +1,39 @@
+2014-06-12 14:41:11,826 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-12 14:41:11,920 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-12 14:41:11,982 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.08 s
+2014-06-12 14:41:11,998 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-12 14:41:12,482 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.49 s
+2014-06-12 14:41:12,545 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Enabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-12 14:41:12,560 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-12 14:41:12,591 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-12 14:41:12,607 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.12 s
+2014-06-12 14:41:15,466 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-12 14:41:15,482 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'LAPTOPFREDERIK\Frederik' to raven. Instance:'http://localhost:8080', Database:'ProcessOrderEndpoint'.
+2014-06-12 14:41:29,282 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-12 14:41:29,876 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-12 14:41:29,892 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-12 14:41:51,834 [9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Initiating shutdown.
+2014-06-12 14:41:59,497 [14] ERROR NServiceBus.Licensing.LicenseBehavior [(null)] <(null)> - Your license has expired
+2014-06-12 14:41:59,669 [9] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Stopped 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-12 14:41:59,669 [9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Shutdown complete.

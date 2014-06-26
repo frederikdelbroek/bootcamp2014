@@ -1,0 +1,8 @@
+C:\Users\Frederik\Projects\BootcampDistributedSystems\Messages\bin\Debug\Messages.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\Messages\bin\Debug\Messages.pdb
+C:\Users\Frederik\Projects\BootcampDistributedSystems\Messages\bin\Debug\NServiceBus.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\Messages\bin\Debug\NServiceBus.pdb
+C:\Users\Frederik\Projects\BootcampDistributedSystems\Messages\bin\Debug\NServiceBus.xml
+C:\Users\Frederik\Projects\BootcampDistributedSystems\Messages\obj\Debug\Messages.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Projects\BootcampDistributedSystems\Messages\obj\Debug\Messages.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\Messages\obj\Debug\Messages.pdb

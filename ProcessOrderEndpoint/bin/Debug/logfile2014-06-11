@@ -1,0 +1,717 @@
+2014-06-11 21:06:49,199 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 21:06:49,325 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 21:06:49,396 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.09 s
+2014-06-11 21:06:49,402 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 21:06:51,761 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 2.36 s
+2014-06-11 21:06:51,857 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2014-06-11 21:06:51,866 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 21:06:51,892 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 21:06:51,931 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2014-06-11 21:06:51,939 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.17 s
+2014-06-11 21:06:52,469 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:06:52,619 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:06:52,627 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 21:13:28,277 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 21:13:28,363 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 21:13:28,448 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.10 s
+2014-06-11 21:13:28,454 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 21:13:28,799 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.35 s
+2014-06-11 21:13:28,845 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 21:13:28,858 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 21:13:28,908 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2014-06-11 21:13:28,918 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.12 s
+2014-06-11 21:13:31,799 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-11 21:13:47,145 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:13:47,820 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:13:47,845 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 21:52:59,338 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 21:52:59,409 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 21:52:59,468 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.07 s
+2014-06-11 21:52:59,473 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 21:52:59,791 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.32 s
+2014-06-11 21:52:59,822 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 21:52:59,831 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 21:52:59,863 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-11 21:52:59,873 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.08 s
+2014-06-11 21:53:00,745 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-11 21:53:05,902 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:53:06,400 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:53:06,407 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 21:53:42,379 [10] ERROR NServiceBus.Licensing.LicenseBehavior [(null)] <(null)> - Your license has expired
+2014-06-11 21:54:14,794 [23] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 21:56:21,966 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 21:56:22,036 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 21:56:22,097 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.07 s
+2014-06-11 21:56:22,102 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 21:56:22,374 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.28 s
+2014-06-11 21:56:22,405 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 21:56:22,413 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 21:56:22,446 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-11 21:56:22,453 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.08 s
+2014-06-11 21:56:23,445 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-11 21:56:25,608 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:56:26,070 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:56:26,076 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 21:56:39,202 [9] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 21:56:50,987 [20] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 21:57:02,769 [3] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 21:57:05,544 [10] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Initiating shutdown.
+2014-06-11 21:57:14,559 [22] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 21:57:26,316 [20] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 21:57:26,390 [10] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Stopped 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 21:57:26,391 [10] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Shutdown complete.
+2014-06-11 22:01:21,953 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 22:01:22,024 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 22:01:22,085 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.07 s
+2014-06-11 22:01:22,090 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 22:01:22,347 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.26 s
+2014-06-11 22:01:22,379 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 22:01:22,390 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 22:01:22,426 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-11 22:01:22,434 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.08 s
+2014-06-11 22:01:23,816 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-11 22:01:26,280 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 22:01:26,751 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 22:01:26,762 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 22:01:41,037 [10] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:01:52,810 [19] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:22,383 [3] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:36,658 [22] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:50,628 [3] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: No message publisher has been registered. If you're using a transport without native support for pub/sub please enable the message driven publishing feature by calling: Feature.Enable<MessageDrivenPublisher>() in your configuration
+   at NServiceBus.Unicast.Behaviors.DispatchMessageToTransportBehavior.Invoke(SendPhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\DispatchMessageToTransportBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, TransportMessage physicalMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 97
+   at NServiceBus.Unicast.Behaviors.CreatePhysicalMessageBehavior.Invoke(SendLogicalMessagesContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\CreatePhysicalMessageBehavior.cs:line 57
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeSendPipeline(SendOptions sendOptions, IEnumerable`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 78
+   at NServiceBus.Unicast.UnicastBus.InvokeSendPipeline(SendOptions sendOptions, List`1 messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 749
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T[] messages) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 321
+   at NServiceBus.Unicast.UnicastBus.Publish[T](T message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\UnicastBus.cs:line 294
+   at ProcessOrderEndpoint.PlaceOrderDemo3Handler.Handle(PlaceOrderDemo3Command message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\ProcessOrderEndpoint\PlaceOrderDemo3Handler.cs:line 41
+   at lambda_method(Closure , Object , Object )
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 61
+   at NServiceBus.Unicast.HandlerInvocationCache.InvokeHandle(Object handler, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 22
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.<Invoke>b__1(Object handlerInstance, Object message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 42
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.DispatchMessageToHandlersBasedOnType(IBuilder builder, LogicalMessage toHandle, MessageHandler messageHandler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeHandlerPipeline(MessageHandler handler) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 68
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 45
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 36
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Pipeline.PipelineExecutor.InvokeLogicalMessagePipeline(LogicalMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 58
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:50,720 [16] WARN  NServiceBus.Faults.Forwarder.FaultManager [(null)] <(null)> - Message with '00253b8d-08c4-435f-93d5-a34701677c24' id has failed FLR and will be handed over to SLR for retry attempt 1.
+2014-06-11 22:02:50,788 [8] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:51,111 [8] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:51,120 [7] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:51,413 [7] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:51,421 [23] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:51,704 [23] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:51,714 [24] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:52,005 [24] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:52,015 [25] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:52,308 [25] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:52,318 [26] WARN  NServiceBus.Faults.Forwarder.FaultManager [(null)] <(null)> - Message with '6211ab3e-d8bd-4b1b-802a-a347016914c0' id has failed FLR and will be handed over to SLR for retry attempt 1.
+2014-06-11 22:02:52,352 [28] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:52,651 [28] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:52,661 [29] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:52,975 [29] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:52,987 [30] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:53,309 [30] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:53,318 [29] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:53,614 [29] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:53,623 [28] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:53,921 [28] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:53,931 [27] WARN  NServiceBus.Faults.Forwarder.FaultManager [(null)] <(null)> - Message with 'ceae3303-a347-4cc2-9687-a34701693239' id has failed FLR and will be handed over to SLR for retry attempt 1.
+2014-06-11 22:02:53,997 [25] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:54,286 [25] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:54,295 [24] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:54,585 [24] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:54,593 [23] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:54,874 [23] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:54,882 [7] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:55,153 [7] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:55,161 [8] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:55,441 [8] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from InvoicingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:55,450 [10] WARN  NServiceBus.Faults.Forwarder.FaultManager [(null)] <(null)> - Message with '538456e6-ebb5-4de5-bb42-a347016acd15' id has failed FLR and will be handed over to SLR for retry attempt 1.
+2014-06-11 22:02:55,488 [3] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:55,785 [3] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:55,794 [22] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:56,077 [22] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:56,086 [4] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:56,371 [4] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:56,379 [31] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:56,657 [31] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:56,666 [32] WARN  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+2014-06-11 22:02:56,950 [32] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.InvalidOperationException: Subscription message from MailingEndpoint@LAPTOPFREDERIK arrived at this endpoint, yet this endpoint is not configured to be a publisher. To avoid this warning make this endpoint a publisher by configuring a subscription storage or using the AsA_Publisher role.
+   at NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager.MutateIncoming(TransportMessage transportMessage) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Subscriptions\MessageDrivenSubscriptions\MessageDrivenSubscriptionManager.cs:line 92
+   at NServiceBus.MessageMutator.ApplyIncomingTransportMessageMutatorsBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\MessageMutator\ApplyIncomingTransportMessageMutatorsBehavior.cs:line 17
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 64
+   at NServiceBus.Pipeline.BehaviorChain`1.<>c__DisplayClass2.<InvokeNext>b__0() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-11 22:02:56,959 [33] WARN  NServiceBus.Faults.Forwarder.FaultManager [(null)] <(null)> - Message with '8ecfd8a2-3c3b-45d4-848d-a347016ade65' id has failed FLR and will be handed over to SLR for retry attempt 1.
+2014-06-11 22:03:58,346 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 22:03:58,416 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 22:03:58,477 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.07 s
+2014-06-11 22:03:58,482 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 22:03:58,741 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.26 s
+2014-06-11 22:03:58,806 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Enabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 22:03:58,816 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 22:03:58,849 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-11 22:03:58,856 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.11 s
+2014-06-11 22:04:01,206 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-11 22:04:01,210 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'LAPTOPFREDERIK\Frederik' to raven. Instance:'http://localhost:8080', Database:'ProcessOrderEndpoint'.
+2014-06-11 22:04:03,741 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 22:04:04,162 [9] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the ProcessOrderEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 22:04:04,170 [9] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 22:04:21,959 [3] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing InvoicingEndpoint@LAPTOPFREDERIK to message type Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2014-06-11 22:04:30,782 [15] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing MailingEndpoint@LAPTOPFREDERIK to message type Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2014-06-11 22:05:19,096 [11] ERROR NServiceBus.Licensing.LicenseBehavior [(null)] <(null)> - Your license has expired

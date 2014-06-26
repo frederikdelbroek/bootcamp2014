@@ -1,0 +1,111 @@
+2014-06-11 21:54:59,363 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 21:54:59,433 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 21:54:59,490 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.07 s
+2014-06-11 21:54:59,494 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 21:54:59,756 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.27 s
+2014-06-11 21:54:59,788 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 21:54:59,797 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 21:54:59,830 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-11 21:54:59,837 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.08 s
+2014-06-11 21:55:00,323 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue LAPTOPFREDERIK\private$\MailingEndpoint does not exist.
+2014-06-11 21:55:00,990 [1] WARN  NServiceBus.Transports.Msmq.MsmqQueueCreator [(null)] <(null)> - Queue LAPTOPFREDERIK\private$\MailingEndpoint.Retries does not exist.
+2014-06-11 21:55:01,400 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-11 21:55:03,998 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:55:04,460 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 21:55:04,468 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 21:55:04,501 [15] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing to Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue ProcessOrderEndpoint@LAPTOPFREDERIK
+2014-06-11 21:55:08,409 [10] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Initiating shutdown.
+2014-06-11 21:55:08,456 [10] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Stopped 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 21:55:08,458 [10] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Shutdown complete.
+2014-06-11 22:01:05,212 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 22:01:05,283 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 22:01:05,344 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.07 s
+2014-06-11 22:01:05,349 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 22:01:05,603 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.26 s
+2014-06-11 22:01:05,635 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 22:01:05,644 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 22:01:05,684 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-11 22:01:05,691 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.09 s
+2014-06-11 22:01:07,128 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-11 22:01:09,388 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 22:01:09,835 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 22:01:09,843 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 22:01:09,874 [15] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing to Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue ProcessOrderEndpoint@LAPTOPFREDERIK
+2014-06-11 22:04:26,013 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-11 22:04:26,084 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-11 22:04:26,149 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.08 s
+2014-06-11 22:04:26,153 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-11 22:04:26,406 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.26 s
+2014-06-11 22:04:26,437 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-11 22:04:26,445 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-11 22:04:26,489 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-11 22:04:26,499 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.09 s
+2014-06-11 22:04:28,176 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-11 22:04:30,190 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 22:04:30,647 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-11 22:04:30,655 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-11 22:04:30,690 [14] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing to Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue ProcessOrderEndpoint@LAPTOPFREDERIK
+2014-06-11 22:05:32,846 [15] ERROR NServiceBus.Licensing.LicenseBehavior [(null)] <(null)> - Your license has expired

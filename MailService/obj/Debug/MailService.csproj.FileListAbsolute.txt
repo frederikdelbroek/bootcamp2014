@@ -1,0 +1,5 @@
+C:\Users\Frederik\Projects\BootcampDistributedSystems\MailService\bin\Debug\MailService.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\MailService\bin\Debug\MailService.pdb
+C:\Users\Frederik\Projects\BootcampDistributedSystems\MailService\obj\Debug\MailService.csprojResolveAssemblyReference.cache
+C:\Users\Frederik\Projects\BootcampDistributedSystems\MailService\obj\Debug\MailService.dll
+C:\Users\Frederik\Projects\BootcampDistributedSystems\MailService\obj\Debug\MailService.pdb

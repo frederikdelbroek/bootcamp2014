@@ -1,0 +1,384 @@
+2014-06-13 10:44:46,408 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-13 10:44:46,502 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-13 10:44:46,596 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.11 s
+2014-06-13 10:44:46,596 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-13 10:44:47,018 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.43 s
+2014-06-13 10:44:47,064 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2014-06-13 10:44:47,064 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-13 10:44:47,096 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-13 10:44:47,143 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-13 10:44:47,158 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.13 s
+2014-06-13 10:44:47,377 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 10:44:47,486 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 10:44:47,502 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 10:44:47,549 [14] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing to Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue ProcessOrderEndpoint@LAPTOPFREDERIK
+2014-06-13 10:45:44,963 [10] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Initiating shutdown.
+2014-06-13 10:45:44,979 [10] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Stopped 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 10:45:44,994 [10] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Shutdown complete.
+2014-06-13 10:46:02,312 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-13 10:46:02,437 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-13 10:46:02,499 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.10 s
+2014-06-13 10:46:02,515 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-13 10:46:02,780 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.27 s
+2014-06-13 10:46:02,812 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2014-06-13 10:46:02,827 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-13 10:46:02,859 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-13 10:46:02,905 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-13 10:46:02,921 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.14 s
+2014-06-13 10:46:03,124 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 10:46:03,249 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 10:46:03,249 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 10:46:03,280 [14] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing to Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue ProcessOrderEndpoint@LAPTOPFREDERIK
+2014-06-13 11:59:40,446 [11] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Initiating shutdown.
+2014-06-13 11:59:40,477 [11] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Stopped 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 11:59:40,477 [11] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Shutdown complete.
+2014-06-13 12:20:07,648 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-13 12:20:07,795 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-13 12:20:07,893 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.12 s
+2014-06-13 12:20:07,900 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-13 12:20:08,215 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.33 s
+2014-06-13 12:20:08,277 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2014-06-13 12:20:08,277 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-13 12:20:08,293 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-13 12:20:08,355 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-13 12:20:08,355 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.13 s
+2014-06-13 12:20:08,590 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 12:20:08,715 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 12:20:08,715 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 12:20:08,746 [14] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing to Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue ProcessOrderEndpoint@LAPTOPFREDERIK
+2014-06-13 12:20:36,038 [9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Initiating shutdown.
+2014-06-13 12:20:36,054 [9] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Stopped 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 12:20:36,069 [9] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Shutdown complete.
+2014-06-13 12:23:35,098 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-13 12:23:35,192 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-13 12:23:35,254 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.09 s
+2014-06-13 12:23:35,270 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-13 12:23:35,598 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.33 s
+2014-06-13 12:23:35,629 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-13 12:23:35,645 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-13 12:23:35,692 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-13 12:23:35,692 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.09 s
+2014-06-13 12:23:36,770 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Did not attempt to add user 'LAPTOPFREDERIK\Frederik' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "LAPTOPFREDERIK\Frederik" /add
+2014-06-13 12:23:39,087 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 12:23:39,665 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 12:23:39,665 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 12:23:39,774 [16] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing to Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue ProcessOrderEndpoint@LAPTOPFREDERIK
+2014-06-13 12:23:44,085 [10] ERROR NServiceBus.Licensing.LicenseBehavior [(null)] <(null)> - Your license has expired
+2014-06-13 12:23:47,194 [15] ERROR NServiceBus.Licensing.LicenseBehavior [(null)] <(null)> - Your license has expired
+2014-06-13 12:24:28,909 [11] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Initiating shutdown.
+2014-06-13 12:24:28,940 [11] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Stopped 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 12:24:28,940 [11] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Shutdown complete.
+2014-06-13 12:25:31,837 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2014-06-13 12:25:31,949 [1] WARN  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Trial for the Particular Service Platform has expired
+2014-06-13 12:25:32,039 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.12 s
+2014-06-13 12:25:32,054 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Default feature TimeoutManager has been explicitly disabled
+2014-06-13 12:25:32,414 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 0.37 s
+2014-06-13 12:25:32,461 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2014-06-13 12:25:32,476 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Enabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Disabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Enabled
+
+2014-06-13 12:25:32,492 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2014-06-13 12:25:32,554 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 6
+2014-06-13 12:25:32,570 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.15 s
+2014-06-13 12:25:32,820 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 12:25:32,961 [1] INFO  NServiceBus.Unicast.Transport.Monitoring.ReceivePerformanceDiagnostics [(null)] <(null)> - NServiceBus performance counter for # of msgs successfully processed / sec is not set up correctly, no statistics will be emitted for the MailingEndpoint.Retries queue. Execute the Install-NServiceBusPerformanceCounters cmdlet to create the counter.
+2014-06-13 12:25:32,976 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 12:25:33,023 [14] INFO  NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions.MessageDrivenSubscriptionManager [(null)] <(null)> - Subscribing to Messages.OrderPlacedDemo3Event, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue ProcessOrderEndpoint@LAPTOPFREDERIK
+2014-06-13 12:25:58,873 [4] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.Exception: Oops iets is er mis
+   at MailingEndpoint.OrderPlacedDemo3Handler.Handle(OrderPlacedDemo3Event message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\MailingEndpoint\OrderPlacedDemo3Handler.cs:line 29
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 37
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 62
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-13 12:25:58,889 [18] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.Exception: Oops iets is er mis
+   at MailingEndpoint.OrderPlacedDemo3Handler.Handle(OrderPlacedDemo3Event message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\MailingEndpoint\OrderPlacedDemo3Handler.cs:line 29
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 37
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 62
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-13 12:25:58,904 [20] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.Exception: Oops iets is er mis
+   at MailingEndpoint.OrderPlacedDemo3Handler.Handle(OrderPlacedDemo3Event message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\MailingEndpoint\OrderPlacedDemo3Handler.cs:line 29
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 37
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 62
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-13 12:25:58,920 [21] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.Exception: Oops iets is er mis
+   at MailingEndpoint.OrderPlacedDemo3Handler.Handle(OrderPlacedDemo3Event message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\MailingEndpoint\OrderPlacedDemo3Handler.cs:line 29
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 37
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 62
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-13 12:25:58,935 [20] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+System.Exception: Oops iets is er mis
+   at MailingEndpoint.OrderPlacedDemo3Handler.Handle(OrderPlacedDemo3Event message) in c:\Users\Frederik\Projects\BootcampDistributedSystems\MailingEndpoint\OrderPlacedDemo3Handler.cs:line 29
+   at NServiceBus.Unicast.HandlerInvocationCache.Invoke(Object handler, Object message, Dictionary`2 dictionary) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\HandlerInvocationCache.cs:line 63
+   at NServiceBus.Unicast.Behaviors.InvokeHandlersBehavior.Invoke(HandlerInvocationContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\InvokeHandlersBehavior.cs:line 29
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Behaviors.LoadHandlersBehavior.Invoke(ReceiveLogicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Behaviors\LoadHandlersBehavior.cs:line 37
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.Invoke(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 34
+   at NServiceBus.Pipeline.PipelineExecutor.Execute[T](BehaviorChain`1 pipelineAction, T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\PipelineExecutor.cs:line 139
+   at NServiceBus.Unicast.Messages.ExecuteLogicalMessagesBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Messages\ExecuteLogicalMessagesBehavior.cs:line 28
+   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 51   at NServiceBus.Pipeline.BehaviorChain`1.InvokeNext(T context) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Pipeline\BehaviorChain.cs:line 62
+   at NServiceBus.UnitOfWork.UnitOfWorkBehavior.Invoke(ReceivePhysicalMessageContext context, Action next) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:line 24
+2014-06-13 12:25:58,967 [18] WARN  NServiceBus.Faults.Forwarder.FaultManager [(null)] <(null)> - Message with '2546c7a7-0552-4ca3-a2a6-a34900cce1ea' id has failed FLR and will be handed over to SLR for retry attempt 1.
+2014-06-13 12:25:59,029 [4] ERROR NServiceBus.Timeout.TimeoutManagerDeferrer [(null)] <(null)> - There was a problem deferring the message. Make sure that DisableTimeoutManager was not called for your endpoint.
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 16
+2014-06-13 12:25:59,045 [4] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 27
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Defer(TimeSpan defer, TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 82
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Handle(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 53
+   at NServiceBus.Satellites.SatelliteLauncher.HandleMessageReceived(Object sender, TransportMessageReceivedEventArgs e, ISatellite satellite) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Satellites\SatelliteLauncher.cs:line 92
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 453   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 390
+   at NServiceBus.Unicast.Transport.TransportReceiver.TryProcess(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 260
+   at NServiceBus.Transports.Msmq.MsmqDequeueStrategy.Action() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqDequeueStrategy.cs:line 238
+2014-06-13 12:25:59,060 [14] ERROR NServiceBus.Timeout.TimeoutManagerDeferrer [(null)] <(null)> - There was a problem deferring the message. Make sure that DisableTimeoutManager was not called for your endpoint.
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 16
+2014-06-13 12:25:59,076 [14] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 27
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Defer(TimeSpan defer, TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 82
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Handle(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 53
+   at NServiceBus.Satellites.SatelliteLauncher.HandleMessageReceived(Object sender, TransportMessageReceivedEventArgs e, ISatellite satellite) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Satellites\SatelliteLauncher.cs:line 92
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 453   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 390
+   at NServiceBus.Unicast.Transport.TransportReceiver.TryProcess(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 260
+   at NServiceBus.Transports.Msmq.MsmqDequeueStrategy.Action() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqDequeueStrategy.cs:line 238
+2014-06-13 12:25:59,092 [13] ERROR NServiceBus.Timeout.TimeoutManagerDeferrer [(null)] <(null)> - There was a problem deferring the message. Make sure that DisableTimeoutManager was not called for your endpoint.
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 16
+2014-06-13 12:25:59,123 [13] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 27
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Defer(TimeSpan defer, TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 82
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Handle(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 53
+   at NServiceBus.Satellites.SatelliteLauncher.HandleMessageReceived(Object sender, TransportMessageReceivedEventArgs e, ISatellite satellite) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Satellites\SatelliteLauncher.cs:line 92
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 453   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 390
+   at NServiceBus.Unicast.Transport.TransportReceiver.TryProcess(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 260
+   at NServiceBus.Transports.Msmq.MsmqDequeueStrategy.Action() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqDequeueStrategy.cs:line 238
+2014-06-13 12:25:59,154 [12] ERROR NServiceBus.Timeout.TimeoutManagerDeferrer [(null)] <(null)> - There was a problem deferring the message. Make sure that DisableTimeoutManager was not called for your endpoint.
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 16
+2014-06-13 12:25:59,170 [12] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 27
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Defer(TimeSpan defer, TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 82
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Handle(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 53
+   at NServiceBus.Satellites.SatelliteLauncher.HandleMessageReceived(Object sender, TransportMessageReceivedEventArgs e, ISatellite satellite) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Satellites\SatelliteLauncher.cs:line 92
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 453   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 390
+   at NServiceBus.Unicast.Transport.TransportReceiver.TryProcess(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 260
+   at NServiceBus.Transports.Msmq.MsmqDequeueStrategy.Action() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqDequeueStrategy.cs:line 238
+2014-06-13 12:25:59,185 [22] ERROR NServiceBus.Timeout.TimeoutManagerDeferrer [(null)] <(null)> - There was a problem deferring the message. Make sure that DisableTimeoutManager was not called for your endpoint.
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 16
+2014-06-13 12:25:59,201 [22] INFO  NServiceBus.Unicast.Transport.TransportReceiver [(null)] <(null)> - Failed to process message
+NServiceBus.Unicast.Queuing.QueueNotFoundException: Failed to send message to address: [MailingEndpoint.Timeouts@LAPTOPFREDERIK] ---> System.Messaging.MessageQueueException: The queue does not exist or you do not have sufficient permissions to perform the operation.
+   at System.Messaging.MessageQueue.MQCacheableInfo.get_WriteHandle()
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, ITransaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeSendMessage(MQPROPS properties, IntPtr transaction)
+   at System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 59
+   --- End of inner exception stack trace ---
+   at NServiceBus.Transports.Msmq.MsmqMessageSender.Send(TransportMessage message, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqMessageSender.cs:line 75
+   at NServiceBus.Timeout.TimeoutManagerDeferrer.Defer(TransportMessage message, DateTime processAt, Address address) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Timeout\Core\TimeoutManagerDeferrer.cs:line 27
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Defer(TimeSpan defer, TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 82
+   at NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor.Handle(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\SecondLevelRetries\SecondLevelRetriesProcessor.cs:line 53
+   at NServiceBus.Satellites.SatelliteLauncher.HandleMessageReceived(Object sender, TransportMessageReceivedEventArgs e, ISatellite satellite) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Satellites\SatelliteLauncher.cs:line 92
+   at NServiceBus.Unicast.Transport.TransportReceiver.OnTransportMessageReceived(TransportMessage msg) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 453   at NServiceBus.Unicast.Transport.TransportReceiver.ProcessMessage(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 390
+   at NServiceBus.Unicast.Transport.TransportReceiver.TryProcess(TransportMessage message) in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Unicast\Transport\TransportReceiver.cs:line 260
+   at NServiceBus.Transports.Msmq.MsmqDequeueStrategy.Action() in y:\BuildAgent\work\31f8c64a6e8a2d7c\src\NServiceBus.Core\Transports\Msmq\MsmqDequeueStrategy.cs:line 238
+2014-06-13 12:27:20,652 [11] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Initiating shutdown.
+2014-06-13 12:27:20,652 [11] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Stopped 1/1 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2014-06-13 12:27:20,668 [11] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Shutdown complete.
